@@ -98,8 +98,6 @@ body {
 }
 .login-inner {
     width: 87%;
-    max-width: 327px;
-    min-width: 280px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -643,8 +641,7 @@ body {
         padding-top: 80px;
     }
     .login-inner {
-        width: 52%;
-        min-width: 327px;
+        max-width: 400px;
         margin: 0 auto;
         gap: 40px;
         background-color: var(--NightBlue);
