@@ -76,6 +76,9 @@ export default function Register() {
                             value={confirmPassword}
                             onChange={(e) => setConfirmPassword(e.target.value)}
                         />
+                        <label htmlFor="profileImage" className="profile-image-label">
+                            Profil Resminizi Yükleyin
+                        </label>
                         <input
                             type="file"
                             accept="image/*"
